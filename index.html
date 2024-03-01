@@ -14,10 +14,9 @@
 
 <body class="bg-black text-white ">
     <div class="container flex mx-auto my-3 ">
-        <div class="first w-30  md:w-[100%]">
-            <div class="logo invert  sticky top-3">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+        <div class="first w-36  md:w-[100%]">
+            <div class="logo invert  sticky top-3"><svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="m-auto md:w-9 w-8 r-4qtqp9 r-yyyyoo   r-dnmrzs       r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                     <g>
                         <path
                             d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
@@ -26,7 +25,7 @@
                 </svg>
             </div>
             <div class="sidebar flex justify-end  sticky top-12">
-                <ul class="flex flex-col text-lg space-y-0 w-1/2 font-bold">
+                <ul class="flex flex-col text-lg space-y-0 md:w-1/2 w-3/4 font-bold">
                     <li
                         class="flex justify-start items-center gap-2 w-fit hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-2 py-2">
                         <span class="material-symbols-outlined text-3xl"> Home </span> <span class="hidden md:block">
@@ -78,11 +77,11 @@
                             class="hidden md:block">More</span>
                     </li>
                     <li>
-                        <div class="button w-full text-center my-4 md:block">
+                        <div class="button w-full text-center my-6 md:block">
                             <button
                                 class="hidden md:block bg-blue-500 hover:bg-blue-400 cursor-pointer px-20 py-1 text-md rounded-full text-white">Post</button>
                             <button
-                                class="md:hidden block bg-blue-500  cursor-pointer px-5 py-1 text-sm rounded-full text-white">
+                                class="block md:hidden  bg-blue-500  cursor-pointer px-2 py-1 text-sm rounded-full text-white">
                                 <span class="material-symbols-outlined">
                                     edit
                                 </span>
@@ -90,20 +89,20 @@
                         </div>
                     </li>
 
-                    <div class="userprofile justify-end items-center  w-full mt-10 hover:bg-gray-800 rounded-full">
-                        <div class="item  p-3 px-2 space-y-2 flex gap-4 justify-end">
-                            <div class="flex ">
+                    <div class="userprofile justify-end items-center  md:block md:w-full hover:bg-gray-800 md:rounded-full  ">
+                        <div class="item  md:p-3   px-2 space-y-2 flex gap-4 justify-end mt-3 md:mt-0 mr-3 md:mr-0 ">
+                            <div class="flex  ">
                                 <div class="p1">
-                                    <img class="w-10 h-10 mt-3 text-sm"
+                                    <img class="w-10 h-10 rounded-full md:rounded-none text-sm md:pt-2 "
                                         src="https://pbs.twimg.com/profile_images/1695878229494829056/Li0ETjdS_400x400.jpg"
                                         alt="Yashraj K">
                                 </div>
-                                <div class="p2 text-sm mt-3 ml-2">
+                                <div class="p2 text-sm mt-3 md:mt-1 ml-2 hidden md:block ">
                                     <div class="hover:underline cursor-pointer font-bold">Yashraj</div>
-                                    <div class="text-sm text-gray-600">@Yashraj_K_</div>
+                                    <div class="text-sm ">@Yashraj_K_</div>
                                 </div>
                             </div>
-                            <div class="p-3 text-sm justify-center items-center">
+                            <div class="p-3 md:p-0 text-sm justify-center items-center hidden md:block">
                                 <button class=" px-1 py-1 rounded-full text-white">...</button>
                             </div>
 
@@ -141,7 +140,7 @@
                         <span class="font-bold cursor-pointer">Everyon can reply</span>
                     </div>
                     <div class="w-[90%] h-[0.2px] bg-white my-3"></div>
-                    <div class="blueicons flex gap-2 text-blue-500">
+                    <div class="blueicons flex gap-2 text-blue-500 ">
                         <span class="material-symbols-outlined cursor-pointer">
                             image
                         </span>
@@ -160,9 +159,9 @@
                         <span class="material-symbols-outlined cursor-pointer">
                             location_on
                         </span>
-                        <div class="button w-full text-center my-2">
+                        <div class="button w-full text-center ">
                             <button
-                                class="bg-blue-500  cursor-pointer px-5 py-1 text-sm rounded-full text-white">Post</button>
+                                class="bg-blue-500  cursor-pointer px-4 py-1 text-sm rounded-full text-white">Post</button>
 
                         </div>
                     </div>
@@ -217,7 +216,7 @@
                     </div>
 
                 </div>
-                <hr>
+
                 <div class="post">
                     <div class="flex">
                         <div class="image m-2">
@@ -262,7 +261,150 @@
                     </div>
 
                 </div>
+
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
+                    <div class="flex">
+                        <div class="image m-2">
+                            <img class="w-10"
+                                src="https://pbs.twimg.com/profile_images/1701825344310013952/yuRL9Xkx_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="content my-2">
+                            <div class="flex ">
+                                <span class="font-bold cursor-pointer hover:underline">CricTracker</span>
+                                <span class="text-gray-500"> @Cricktetracker. Feb 29</span>
+                            </div>
+                            <div>Shreyas Iyer has scored the fourth-most runs for India across formats since 2022.</div>
+                            <br>
+                            <div>Do you think he deserves a BCCI Central Contract?</div>
+                            <div class="postimg m-2 ml-0">
+                                <img class="rounded-xl"
+                                    src="https://pbs.twimg.com/media/GHcbFeKa4AEyDYF?format=jpg&name=medium" alt="">
+                            </div>
+                            <div class="icons flex justify-around mx-3 text-gray-600  cursor-pointer  "
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center hover:text-blue-500  ">
+                                    <span class="material-symbols-outlined hover:bg-blue-100 rounded-full p-1">
+                                        chat_bubble
+                                    </span><span> 28k </span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500">
+                                    <span class="material-symbols-outlined hover:bg-green-100 rounded-full p-1">
+                                        repeat
+                                    </span><span>234</span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-red-500">
+                                    <span class="material-symbols-outlined hover:bg-red-100 rounded-full p-1">
+                                        favorite
+                                    </span><span> 57k </span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500">
+                                    <span class="material-symbols-outlined hover:bg-green-100 rounded-full p-1">
+                                        bar_chart
+                                    </span><span> 27k </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-2">
+                            <img class="w-10"
+                                src="https://pbs.twimg.com/profile_images/914888589670043654/KVvwjcWA_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="content my-2">
+                            <span class="font-bold cursor-pointer hover:underline">Maaiomo</span>
+                            <span class="text-gray-500"> @Rainmaker1973 . Feb 29</span>
+
+                            <div>Server Room</div>
+                            <div class="postimg m-2 ml-0">
+                                <img class="rounded-xl"
+                                    src="https://pbs.twimg.com/media/GG7mdufWgAAsK0x?format=jpg&name=small" alt="">
+                            </div>
+                            <div class="icons flex justify-around mx-3 text-gray-600  cursor-pointer"
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center hover:text-blue-500  ">
+                                    <span class="material-symbols-outlined hover:bg-blue-100 rounded-full p-1">
+                                        chat_bubble
+                                    </span><span>24k</span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500">
+                                    <span class="material-symbols-outlined hover:bg-green-100 rounded-full p-1">
+                                        repeat
+                                    </span><span>235</span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-red-500">
+                                    <span class="material-symbols-outlined hover:bg-red-100 rounded-full p-1">
+                                        favorite
+                                    </span> <span>85k</span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500">
+                                    <span class="material-symbols-outlined hover:bg-green-100 rounded-full p-1">
+                                        bar_chart
+                                    </span> <span>92k</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
+                    <div class="flex">
+                        <div class="image m-2">
+                            <img class="w-10"
+                                src="https://pbs.twimg.com/profile_images/1701825344310013952/yuRL9Xkx_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="content my-2">
+                            <div class="flex ">
+                                <span class="font-bold cursor-pointer hover:underline">CricTracker</span>
+                                <span class="text-gray-500"> @Cricktetracker. Feb 29</span>
+                            </div>
+                            <div>Shreyas Iyer has scored the fourth-most runs for India across formats since 2022.</div>
+                            <br>
+                            <div>Do you think he deserves a BCCI Central Contract?</div>
+                            <div class="postimg m-2 ml-0">
+                                <img class="rounded-xl"
+                                    src="https://pbs.twimg.com/media/GHcbFeKa4AEyDYF?format=jpg&name=medium" alt="">
+                            </div>
+                            <div class="icons flex justify-around mx-3 text-gray-600  cursor-pointer  "
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center hover:text-blue-500  ">
+                                    <span class="material-symbols-outlined hover:bg-blue-100 rounded-full p-1">
+                                        chat_bubble
+                                    </span><span> 28k </span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500">
+                                    <span class="material-symbols-outlined hover:bg-green-100 rounded-full p-1">
+                                        repeat
+                                    </span><span>234</span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-red-500">
+                                    <span class="material-symbols-outlined hover:bg-red-100 rounded-full p-1">
+                                        favorite
+                                    </span><span> 57k </span>
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500">
+                                    <span class="material-symbols-outlined hover:bg-green-100 rounded-full p-1">
+                                        bar_chart
+                                    </span><span> 27k </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+
+
 
         </div>
         <div class="third w-full bg-red-200s hidden md:block">
